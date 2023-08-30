@@ -9,7 +9,7 @@
 3. Observable이 한 번 끝나면 더이상 이벤트를 방출하지 않는다.
 
 ```swift
-**example(of: "just, of, from") {
+example(of: "just, of, from") {
 
 	//1
 	let one = 1
@@ -21,7 +21,7 @@
 	let observable2 = Observable.of(one, two, three)
 	let observable3 = Observable.of([one, two, three])
 	let observable4 = Observable.from([one, two, three])
-}**
+}
 ```
 
 4. `just` 메서드는 하나의 element를 가지고 Observable 시퀀스를 만든다. 이 메서드는 observable의 static 메서드이다.
